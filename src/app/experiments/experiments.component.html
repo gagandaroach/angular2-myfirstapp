@@ -1,2 +1,55 @@
 <h3>Experiments Component</h3>
-<p>WHAT IS GOING ONNNNN!</p>
+<div class="space">
+  <p>The Solar System by Dana'97</p>
+  <pre>                       :
+                       :
+                       :
+                       :
+        .              :
+         '.            :           .'
+           '.          :         .'
+             '.   .-""""""-.   .'                                   .'':
+               '."          ".'                               .-""""-.'         .---.          .----.        .-"""-.
+                :            :                _    _        ."     .' ".    ..."     "...    ."      ".    ."       ".
+        .........            .........    o  (_)  (_)  ()   :    .'    :   '..:.......:..'   :        :    :         :   o
+                :            :                              :  .'      :       '.....'       '.      .'    '.       .'
+                 :          :                             .'.'.      .'                        `''''`        `'''''`
+                  '........'                              ''   ``````
+                 .'    :   '.
+               .'      :     '.
+             .'        :       '.
+           .'          :         '.
+                       :
+                       :
+                       :
+                       :</pre>
+  <br>
+  <br>
+  <table style="text-align: center;">
+    <tr>
+      <th><pre>{{spaceship}}</pre></th>
+      <th><tr>{{pilot}}</tr><tr>{{country}}</tr></th>
+    </tr>
+  </table>
+</div>
+
+<form>
+  <div class="form-content">
+    
+    <label>
+      Your Spaceship:
+      <textarea [(ngModel)]="spaceship" name="spaceship"
+        placeholder="Your Ship."></textarea>
+    </label>
+    <label>
+      Pilot Name:
+      <input [(ngModel)]="pilot" type="text" name="pilot"
+        placeholder="Pilot Name.">
+    </label>
+    <label>
+      Country:
+      <input [(ngModel)]="country" type="text" name="country"
+        placeholder="Your Pride.">
+    </label>
+  </div>
+</form>
