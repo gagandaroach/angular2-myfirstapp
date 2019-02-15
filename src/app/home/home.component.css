@@ -1,0 +1,11 @@
+p {
+    color: blue;
+}
+
+h3, p, form {
+    text-align: center;
+}
+
+body {
+    border: 1 solid black;
+}
