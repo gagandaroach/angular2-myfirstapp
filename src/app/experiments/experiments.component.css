@@ -3,3 +3,11 @@
     background-color: black;
     color: white;
 }
+
+.spacetitle {
+    text-align: center;
+}
+
+.half {
+    width: 50vw;
+}
