@@ -25,12 +25,3 @@ export class HomeComponent implements OnInit {
     console.log(this.homeForm);
   }
 }
-
-export class HomeForm {
-   constructor(
-     public name: string,
-     public email: string,
-     public phone: string, 
-     public message: string
-   ) {}
-}
